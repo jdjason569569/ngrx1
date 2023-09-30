@@ -5,7 +5,11 @@ export const loadPhotos = createAction(
   '[Photo List] load photos'
 )
 
+export const loadPhotosTest = createAction(
+  '[Photo List] load photosTest'
+)
+
 export const loadedPhotos = createAction(
-  '[Photo List] loadedd success',
-  props<{photos: Photo[]}>
+  '[Photo List] loaded success',
+  props<{photos: Photo[]}>()
 )

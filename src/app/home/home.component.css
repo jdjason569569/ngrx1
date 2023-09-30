@@ -1,0 +1,15 @@
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.elements-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+img{
+  width: 100%;
+}
+
+

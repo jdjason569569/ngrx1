@@ -1,1 +1,13 @@
 <p>home works!</p>
+
+
+<b *ngIf="loading$ | async">cargando...</b>
+<div *ngFor="let photo of (photos$  | async)">
+ <div class="container">
+  <img src={{photo.url}} alt="Mi Imagen">
+  <div class="elements-container">
+    <div class="id-title">{{photo.id}}</div>
+    <div class="title">{{photo.title}}</div>
+  </div>
+ </div>
+</div>
